@@ -1,0 +1,38 @@
+/* line 1, Sass/Partials/_reset.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, Sass/Partials/_helpers.scss */
+.m-b {
+  margin-bottom: 2em;
+}
+
+/* line 5, Sass/Partials/_helpers.scss */
+.m-t {
+  margin-top: 2em;
+}
+
+/* line 10, Sass/Partials/_helpers.scss */
+.error.color {
+  color: #f44336;
+}
+
+/* line 1, Sass/Partials/_general.scss */
+html,
+body {
+  background-color: #00897b;
+}
+
+/* line 7, Sass/Partials/_general.scss */
+md-sidenav .md-button {
+  width: 100%;
+  margin: 0px;
+}
+
+/* line 1, Sass/Partials/_login.scss */
+#login {
+  margin-top: 200px;
+}

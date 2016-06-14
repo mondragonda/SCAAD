@@ -1,0 +1,34 @@
+﻿<md-card>
+    <md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">Docentes</span>
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content>
+            <md-input-container class="md-icon-float md-block">
+                <!-- Use floating label instead of placeholder -->
+                <label>Buscar</label>
+                <md-icon>
+                    <i class="material-icons">search</i>
+                </md-icon>
+                <input ng-model="search" type="text">
+            </md-input-container>
+        <md-table-container>
+            <table md-table ng-model="selected" md-progress="promesa">
+                <thead md-head md-order="query.order" md-on-reorder="getDocentes">
+                    <tr md-row>
+                        <th md-column md-order-by="nombre"><span>Nombre</span></th>
+                        <th md-column md-numeric md-order-by="numeroEmplado"><span>Numero de empleado</span></th>
+                    </tr>
+                </thead>
+                <tbody md-body>
+                    <tr md-row md-select="docente" ng-repeat="docente in docentes | filter:search | orderBy: query.order">
+                        <td md-cell>{{docente.nombre}}</td>
+                        <td md-cell>{{docente.numeroEmplado}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </md-table-container>
+        <md-table-pagination md-limit="query.limit" md-limit-options="[5, 10, 15]" md-page="query.page" md-total="{{docentes.length}}" md-on-paginate="getDocentes" md-page-select></md-table-pagination>
+    </md-card-content>
+</md-card>

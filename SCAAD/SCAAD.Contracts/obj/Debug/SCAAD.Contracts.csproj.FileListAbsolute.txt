@@ -1,0 +1,5 @@
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\SCAAD.Contracts\bin\Debug\SCAAD.Contracts.dll
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\SCAAD.Contracts\bin\Debug\SCAAD.Contracts.pdb
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\SCAAD.Contracts\obj\Debug\SCAAD.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\SCAAD.Contracts\obj\Debug\SCAAD.Contracts.dll
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\SCAAD.Contracts\obj\Debug\SCAAD.Contracts.pdb

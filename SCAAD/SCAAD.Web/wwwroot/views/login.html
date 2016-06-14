@@ -1,0 +1,19 @@
+﻿<div id="login" class="container">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 well">
+            <form ng-submit="login(usuario)">
+                <h3 class="display-1 m-b">Sistema de coordinacion de actividades academicas docentes</h3>
+                <md-input-container class="md-block">
+                    <input ng-model="usuario.username" type="text" placeholder="Email *" ng-required="true">
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <input ng-model="usuario.password" type="password" placeholder="Contraseña *" ng-required="true">
+                </md-input-container>
+                <p class="animated fadeInLeft error color" ng-if="error">Contraseña o correo incorrectos</p>
+                <div class="text-center">
+                    <md-button type="submit" class="md-raised md-primary">Ingresar</md-button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

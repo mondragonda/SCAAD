@@ -1,0 +1,17 @@
+{
+  "name": "scaad.web",
+  "private": true,
+  "dependencies": {
+    "animate.css": "3.5.1",
+    "angular": "1.5.5",
+    "angular-animate": "1.5.5",
+    "angular-loading-bar": "0.9.0",
+    "angular-material": "1.0.7",
+    "angular-material-data-table": "^0.10.9",
+    "angular-ui-router": "0.2.18",
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.3",
+    "satellizer": "0.14.0",
+    "restangular": "1.5.2"
+  }
+}

@@ -1,0 +1,4 @@
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\Resources\bin\Debug\Resources.dll
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\Resources\bin\Debug\Resources.pdb
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\Resources\obj\Debug\Resources.dll
+C:\Users\Compu\Documents\SCAAD\SCAAD\SCAAD\Resources\obj\Debug\Resources.pdb

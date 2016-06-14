@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html ng-app="app" ng-controller="appController">
+<head>
+    <meta charset="utf-8" />
+    <title>SCAAD {{ pagina.titulo ? ("- " + pagina.titulo) : "" }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="lib/angular-material/angular-material.min.css" rel="stylesheet"/>
+    <link href="lib/animate.css/animate.min.css" rel="stylesheet"/>
+    <link href="lib/angular-loading-bar/build/loading-bar.min.css" rel="stylesheet"/>
+    <link href="lib/angular-material-data-table/dist/md-data-table.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+</head>
+<body ng-cloak>
+    <section ui-view layout="row" layout-fill></section>
+
+    <!--Core-->
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-animate/angular-animate.min.js"></script>
+    <script src="lib/angular-aria/angular-aria.min.js"></script>
+    <script src="lib/angular-animate/angular-animate.min.js"></script>
+    <script src="lib/angular-messages/angular-messages.min.js"></script>
+
+    <!--Dependencias requeridas por otras-->
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/lodash/dist/lodash.min.js"></script>
+
+    <!--Dependencias no angular-->
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!--Dependencias angular-->
+    <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="lib/angular-material/angular-material.min.js"></script>
+    <script src="lib/satellizer/satellizer.min.js"></script>
+    <script src="lib/angular-loading-bar/build/loading-bar.min.js"></script>
+    <script src="lib/restangular/dist/restangular.min.js"></script>
+    <script src="lib/angular-material-data-table/dist/md-data-table.min.js"></script>
+
+    <!--app.js-->
+    <script src="app.js"></script>
+
+    <!--.env.js-->
+    <script src="env.js"></script>
+</body>
+</html>
